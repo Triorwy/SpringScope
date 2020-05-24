@@ -20,17 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1320bc2-1644-49f3-af34-0d1f09578f9f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/xml/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring/xml/PersonFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spring/demo/PersonFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/AppConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,23 +80,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NotepadTestAutowired2.test">
-    <configuration name="AppTest.shouldAnswerWithTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringScope" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.demo.AppTest" />
-      <option name="METHOD_NAME" value="shouldAnswerWithTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PersonFactoryTest.test">
     <configuration name="NotepadTestAutowired2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringScope" />
       <extension name="coverage">
@@ -134,22 +112,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotepadTestAutowired3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SpringScope" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.spring.demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.spring.demo" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.demo.NotepadTestAutowired3" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NotepadTestAutowired.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SpringScope" />
       <extension name="coverage">
@@ -166,13 +128,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonFactoryTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.demo.PersonFactoryTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.spring.demo in SpringScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringScope" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.demo" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonFactoryTest.test" />
+        <item itemvalue="JUnit.com.spring.demo in SpringScope" />
         <item itemvalue="JUnit.NotepadTestAutowired2.test" />
         <item itemvalue="JUnit.NotepadTestAutowired.test" />
         <item itemvalue="JUnit.NotepadTestAutowired2" />
-        <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
-        <item itemvalue="JUnit.NotepadTestAutowired3.test" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590298338482</updated>
-      <workItem from="1590298342815" duration="5111000" />
+      <workItem from="1590298342815" duration="6401000" />
     </task>
     <servers />
   </component>
@@ -209,38 +201,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="326" width="450" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590303773690" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590307520206">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590308624150">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590307520206" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590307520204">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590308624150" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590308624147">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590307520204" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590307520203">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590308624147" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590308624146">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590307520203" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590307520205">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590308624146" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590308624148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590307520205" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1590306696231">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590308624148" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1590308574241">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590306696231" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1590306696229">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590308574241" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1590308574236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590306696229" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1590306696228">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590308574236" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1590308574235">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590306696228" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1590306696230">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590308574235" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1590308574239">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590306696230" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590308574239" />
     <state x="208" y="31" key="SettingsEditor" timestamp="1590298761499">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -249,6 +241,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="176" width="598" height="548" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1590303876973" />
+    <state x="373" y="141" key="spring file set editor" timestamp="1590308497682">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="373" y="141" key="spring file set editor/0.0.1440.900@0.0.1440.900" timestamp="1590308497682" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
