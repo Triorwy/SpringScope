@@ -16,6 +16,6 @@ public class Notepad2 {
 
   public Notepad2() {
     super();
-    System.out.println("NotepadAutowired的无参构造函数" + this.toString());
+    System.out.println("Notepad2的无参构造函数" + this.toString());
   }
 }
