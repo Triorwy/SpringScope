@@ -11,4 +11,16 @@ public class Notepad {
     super();
     System.out.println("Notepad的无参构造函数" + this.toString());
   }
+
+  /**
+   * bean对象的初始化和销毁
+   */
+
+  public void init(){
+    System.out.println("Notepad初始化方法");
+  }
+
+  public void destory(){
+    System.out.println("Notepad销毁方法");
+  }
 }

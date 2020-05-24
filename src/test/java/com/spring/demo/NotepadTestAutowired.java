@@ -2,7 +2,7 @@ package com.spring.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
@@ -16,11 +16,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("classpath:applicationContext.xml")
 public class NotepadTestAutowired {
 
-  @Autowired
-  private Notepad notepad1;
-
-  @Autowired
-  private Notepad notepad2;
+//  @Autowired
+//  private Notepad notepad1;
+//
+//  @Autowired
+//  private Notepad notepad2;
 
   /**
    * scope=singleton
@@ -33,8 +33,12 @@ public class NotepadTestAutowired {
    */
   @Test
   public void test(){
-    System.out.println(notepad1 == notepad2);
+    ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
+        "applicationContext.xml");
+    Notepad notepad1 = (Notepad)context.getBean("notepad");
 
+    //主动调用销毁方法
+    context.destroy();
   }
 
 }

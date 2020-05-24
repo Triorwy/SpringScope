@@ -1,5 +1,7 @@
 package com.spring.demo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.context.annotation.Scope;
@@ -20,4 +22,22 @@ public class Notepad2 {
     super();
     System.out.println("Notepad2的无参构造函数" + this.toString());
   }
+
+
+  /**
+   * bean对象的初始化和销毁
+   * 注解方法
+   */
+
+  @PostConstruct
+  public void init(){
+    System.out.println("Notepad初始化方法");
+  }
+
+  @PreDestroy
+  public void destroy(){
+    System.out.println("Notepad销毁方法");
+  }
+
+
 }

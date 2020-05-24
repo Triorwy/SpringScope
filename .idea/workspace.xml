@@ -20,10 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1320bc2-1644-49f3-af34-0d1f09578f9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/AppConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/demo/Notepad2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring/demo/NotepadTestAutowired2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/AppConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/AppConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/spring/demo/Notepad2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/spring/demo/NotepadTestAutowired2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,10 +169,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.NotepadTestAutowired2.test" />
+        <item itemvalue="JUnit.NotepadTestAutowired.test" />
         <item itemvalue="JUnit.NotepadTestAutowired2" />
         <item itemvalue="JUnit.AppTest.shouldAnswerWithTrue" />
         <item itemvalue="JUnit.NotepadTestAutowired3.test" />
-        <item itemvalue="JUnit.NotepadTestAutowired.test" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +186,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590298338482</updated>
-      <workItem from="1590298342815" duration="3900000" />
+      <workItem from="1590298342815" duration="5111000" />
     </task>
     <servers />
   </component>
@@ -202,38 +209,38 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="495" y="326" width="450" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.900@0.0.1440.900" timestamp="1590303773690" />
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1590306448667">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1590307520206">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590306448667" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1590306448664">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590307520206" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1590307520204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590306448664" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1590306448663">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590307520204" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1590307520203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590306448663" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1590306448666">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590307520203" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1590307520205">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590306448666" />
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1590306446186">
+    <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590307520205" />
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom" timestamp="1590306696231">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590306446186" />
-    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1590306446183">
+    <state width="1398" height="304" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590306696231" />
+    <state width="1398" height="304" key="GridCell.Tab.1.center" timestamp="1590306696229">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590306446183" />
-    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1590306446182">
+    <state width="1398" height="304" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590306696229" />
+    <state width="1398" height="304" key="GridCell.Tab.1.left" timestamp="1590306696228">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590306446182" />
-    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1590306446184">
+    <state width="1398" height="304" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590306696228" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right" timestamp="1590306696230">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590306446184" />
+    <state width="1398" height="304" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590306696230" />
     <state x="208" y="31" key="SettingsEditor" timestamp="1590298761499">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
