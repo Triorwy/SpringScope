@@ -6,8 +6,8 @@
 
   <context:component-scan base-package="com.spring.demo"/>
 <!--  不希望bean被重用，每次获取新的对象，scope设置prototype为原型模式，
-  singleton为单例模式，整个应用程序中只创建一个bean实例-->
-  <bean id="notepad" class="com.spring.demo.Notepad" scope="prototype"/>
+  singleton为单例模式，整个应用程序中只创建一个bean实例,设置lazy-init，延迟加载则表示只有在获取时候才会执行构造函数-->
+  <bean id="notepad" class="com.spring.demo.Notepad" scope="singleton" lazy-init="true"/>
 
 
 

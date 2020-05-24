@@ -16,11 +16,11 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @ContextConfiguration("classpath:applicationContext.xml")
 public class NotepadTestAutowired2 {
 
-  @Autowired
-  private Notepad2 notepad1;
-
-  @Autowired
-  private Notepad2 notepad2;
+//  @Autowired
+//  private Notepad2 notepad1;
+//
+//  @Autowired
+//  private Notepad2 notepad2;
 
   /**
    * scope=singleton
@@ -33,7 +33,7 @@ public class NotepadTestAutowired2 {
    */
   @Test
   public void test(){
-    System.out.println(notepad1 == notepad2);
+    //System.out.println(notepad1 == notepad2);
 
   }
 
